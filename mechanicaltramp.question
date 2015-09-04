@@ -60,6 +60,7 @@
   </Overview>
   <Question>
    <QuestionIdentifier>1</QuestionIdentifier>
+   <IsRequired>true</IsRequired>
    <QuestionContent>
      <Text>Please upload your video as a .mp4 file.</Text>
    </QuestionContent>

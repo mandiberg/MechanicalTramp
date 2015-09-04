@@ -9,6 +9,7 @@ begin
   require 'curb'
   require 'mturk'
   require 'yaml'
+  require 'rexml/document'
   rescue LoadError
 end
 
@@ -79,10 +80,16 @@ def getResults( successFile, outputFile, reviewingFile )
   # parse answers so they're easier to digest
   results.each { |assignment|
     aid = assignment[:AssignmentId]
+    doc = REXML::Document.new(assignment[:Answer])
+    aext = ''
+    doc.elements.each('QuestionFormAnswers/Answer/UploadedFileKey') do |ele|
+      aext = ele.text[ele.text.rindex(".")..ele.text.size-1]
+    end
+    puts aext
     dir = @config["ResultsDirectory"]
     fn = @config["ResultFilePrefix"].sub("scene_name", @config["SceneName"])
     filenum = videoMap[assignment[:HITId]]
-    fn = fn + filenum + @config["ClipFileExt"]
+    fn = fn + filenum + aext
     downloaded = false
     path = dir+fn
     # check if we are already reviewing this one

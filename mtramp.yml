@@ -34,8 +34,8 @@ SceneName: mechanicaltramp
 #ClipsList: resubmit.txt
 
 ClipsRange:
-  - 229
-  - 233
+  - 1
+  - 10
 
 # Success file path: this is the file that will be written (and rewritten) when
 # you upload files to Mechanical Turk with SendHits.rb. Functions as a
@@ -78,19 +78,19 @@ RejectFile: reject.tsv
 # Question file path: path to the question file to use for the current scene.
 # It's a .question file because amazon says so. Actually an xml file.
 
-QuestionFile: mechanicaltramp.question
+QuestionFile: regiontest.question
 
 # Question Title: Title for the HIT question for this scene
 
-QuestionTitle: 'Charlie Chaplin Movie'
+QuestionTitle: 'Describe Your Room'
 
 # Question Description: Brief description for the HIT question for this scene
 
-QuestionDescription: 'This task requires you to make a very short video.'
+QuestionDescription: 'This task requires you to briefly describe where you are.'
 
 # Question Keywords: keywords for this HIT (for searches) (comma-space delimited)
 
-QuestionKeywords: 'video, movie, art, fun, cellphone, acting, play'
+QuestionKeywords: 'audio, creative, speaking, voice'
 
 # Web Video Directory: url to the publicly accessible directory on a webserver
 # where the videos will be linked from in the HIT questions.
@@ -105,17 +105,27 @@ WebVideoPrefix: '' #0001.mp4
 
 # Clip File Extension: extension that files on the web server are saved as
 
-ClipFileExt: .mp4
+ClipFileExt: .mp3
 
 # Clip Price: The price level for all clips in this scene.
 
-ClipPrice: 10.00
+ClipPrice: 2.00
 
 # HIT Lifetime in seconds: The number of seconds before the HIT expires
 
-HITLifetime: 2592000 # four weeks
+#HITLifetime: 2592000 # four weeks
+HITLifetime: 432000
 
 # HIT Duration in seconds: How much time the turker has to complete the HIT
 # once they accept it
 
-HITDuration: 172800 # two days
+#HITDuration: 172800 # two days
+HITDuration: 1800
+
+# Qualification lets you specify a qualification for a question. The default
+# specifies that turkers from the US are not allowed.
+
+Qualification:
+  type: '00000000000000000071'
+  comparator: 'NotEqualTo'
+  parameter: 'US'
