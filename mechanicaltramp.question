@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Mechanical Tramp</Title>
+    <Text>
+      Please recreate the short video below, using the resources you have available. We understand that it will not be the same video; substitute or adapt as you see fit.
+    </Text>
+
+  <FormattedContent>
+    <![CDATA[<a href="%%%path%%%/%%%filename%%%">A clip from Charlie Chaplin's "Modern Times"</a>]]>
+  </FormattedContent>
+
+  <Text>
+    The video is one single shot from Charlie Chaplin's classic film "Modern Times". In addition to this HIT, we have also made HITs other shots in the film. We are going to use the videos you and other turkers produce to make a complete new version of the film.
+  </Text>
+
+  <Text>
+    It is not expected that the video you produce will look exactly like the shot from the original film. However, please follow these guidelines:
+  </Text>
+
+  <List>
+    <ListItem>
+      The actor playing The Tramp (the main character, played by Charlie Chaplin in the original film), should have a mustache (can be real, fake, or drawn on with a grease pencil or eyeliner), and should wear a white shirt, black pants and black shoes.
+    </ListItem>
+
+    <ListItem>
+      The actor playing The Gamin (the heroine of the original film), should wear a dress and no shoes.
+    </ListItem>
+
+    <ListItem>
+      Do your best to interpret the costume for other characters.
+    </ListItem>
+
+    <ListItem>
+      When there is a crowd, do your best to interpret that.
+    </ListItem>
+
+    <ListItem>
+      Do your best to choose a location equivalent to what is seen in the film in your community.
+    </ListItem>
+
+    <ListItem>
+      Submit your video as a .mp4 video if possible, although other video formats are allowed.
+    </ListItem>
+  </List>
+
+  <Text>
+  You can read more about the original film on
+  </Text>
+  <FormattedContent>
+    <![CDATA[<a href="https://en.wikipedia.org/wiki/Modern_Times_%28film%29">Wikipedia</a>]]>
+  </FormattedContent>
+  <Text>
+    You can
+  </Text>
+  <FormattedContent>
+    <![CDATA[<a href="http://mtor.tv/charlie-chaplin-modern-times-1936-785.html">torrent the movie here (requires a torrent client)</a>]]>
+  </FormattedContent>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <QuestionContent>
+     <Text>Please upload your video as a .mp4 file.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>

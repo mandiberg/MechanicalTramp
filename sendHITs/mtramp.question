@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Mechanical Tramp</Title>
+    <Text>
+      Please recreate the short video below, using the resources you have available. After watching the video, read the rest of the task description before making the video.
+    </Text>
+
+  <FormattedContent>
+    <![CDATA[<a href="%%%path%%%/%%%filename%%%">A clip from Charlie Chaplin's "Modern Times"</a>]]>
+  </FormattedContent>
+
+  <Text>
+    The video is an individual shot from Charlie Chaplin's classic film "Modern Times". In addition to this HIT, we have also made HITs for every other shot in the film. We are going to use the videos you and other turkers produce to make a complete new version of the film.
+  </Text>
+
+  <Text>
+    It is not expected that the video you produce will look exactly like the shot from the original film. However, there are some rules we would like you to follow in order to make the eventual complete film understandable.
+  </Text>
+
+  <List>
+    <ListItem>
+      The actor playing The Tramp (the main character, played by Charlie Chaplin in the original film), if present in the shot, must have a mustache (can be real, fake, or drawn on with a grease pencil or eyeliner), and must wear a white shirt, black pants and black shoes (oversized if possible).
+    </ListItem>
+
+    <ListItem>
+      The actor playing The Gamin (the heroine of the original film), if present in the shot, must wear a dark dress and no shoes.
+    </ListItem>
+
+    <ListItem>
+      The actor playing a police officer must wear dark clothes and a bright badge.
+    </ListItem>
+
+    <ListItem>
+      Actors playing other characters should try to match that character's costume from the film to the best of your ability and resources.
+    </ListItem>
+
+    <ListItem>
+      Choose a location equivalent to what is seen in the film. If the clip is in a factory, shoot at a place of work in your community. Likewise with homes, streets, stores or restaurants: find the best local equivalent.
+    </ListItem>
+
+    <ListItem>
+      Construct or find any props necessary to complete the action of the film. It will not always be possible to be completely accurate to the film, but do your best to come up with a creative solution.
+    </ListItem>
+    <ListItem>
+      It will likely take multiple tries to get a successful video. Practice, rehearse and shoot a couple of times, and send us only the best attempt.
+    </ListItem>
+    <ListItem>
+    Pay particular attention to where the characters are and what they do in the shot. Get the timing and motion as accurate to the original shot as possible.
+    </ListItem>
+
+    <ListItem>
+      Submit your video as a .mp4 video if possible, although other video formats are allowed.
+    </ListItem>
+  </List>
+
+  <Text>
+  You can read more about the original film on
+  </Text>
+  <FormattedContent>
+    <![CDATA[<a href="https://en.wikipedia.org/wiki/Modern_Times_%28film%29">Wikipedia</a>]]>
+  </FormattedContent>
+  <Text>
+    You can
+  </Text>
+  <FormattedContent>
+    <![CDATA[<a href="http://mtor.tv/charlie-chaplin-modern-times-1936-785.html">torrent the movie here (requires a torrent client)</a>]]>
+  </FormattedContent>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <QuestionContent>
+     <Text>Please upload your video as a .mp4 file.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
