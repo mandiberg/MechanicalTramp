@@ -1,18 +1,18 @@
-AcceptTime	Answer	Answers.1	AssignmentDurationInSeconds	AssignmentId	AssignmentStatus	AutoApprovalDelayInSeconds	AutoApprovalTime	CreationTime	Description	Expiration	HITGroupId	HITId	HITReviewStatus	HITStatus	HITTypeId	Keywords	MaxAssignments	NumberOfAssignmentsAvailable	NumberOfAssignmentsCompleted	NumberOfAssignmentsPending	Question	Request.IsValid	Reward.Amount	Reward.CurrencyCode	Reward.FormattedPrice	SubmitTime	Title	WorkerId
-2015-09-15 03:02:32 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+AcceptTime	Answer	Answers.1	ApprovalTime	AssignmentDurationInSeconds	AssignmentId	AssignmentStatus	AutoApprovalDelayInSeconds	AutoApprovalTime	CreationTime	Description	Expiration	HITGroupId	HITId	HITReviewStatus	HITStatus	HITTypeId	Keywords	MaxAssignments	NumberOfAssignmentsAvailable	NumberOfAssignmentsCompleted	NumberOfAssignmentsPending	QualificationRequirement.Comparator	QualificationRequirement.LocaleValue.Country	QualificationRequirement.QualificationTypeId	QualificationRequirement.RequiredToPreview	Question	Request.IsValid	Reward.Amount	Reward.CurrencyCode	Reward.FormattedPrice	SubmitTime	Title	WorkerId
+2015-09-16 02:58:37 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
 <QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
 <Answer>
 <QuestionIdentifier>1</QuestionIdentifier>
-<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
-<UploadedFileKey>A2ITTWD7JN9U87/31J7RYECZLQ6022FBK453GVUME81LF/3QIYRE09Y3HYAM3TD0PL4SU13EQ1NL/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+<UploadedFileSizeInBytes>754809</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3XT3KXP24ZYMA88FTTZNN70TGQV6IW/39GHHAVOMFR6CGM0IPWARTQYBQE4JO/1/for mturk.wma</UploadedFileKey>
 </Answer>
 </QuestionFormAnswers>
-"	A2ITTWD7JN9U87/31J7RYECZLQ6022FBK453GVUME81LF/3QIYRE09Y3HYAM3TD0PL4SU13EQ1NL/1/Wolfgun - VISION - 01 Vision.mp3	1800	3QIYRE09Y3HYAM3TD0PL4SU13EQ1NL	Submitted	604800	2015-09-22 03:05:36 UTC	2015-09-15 03:02:18 UTC	This task requires you to briefly describe where you are.	2015-09-20 03:02:18 UTC	3LNJUJ6UPARHS1QFBY7Q6V861R3REP	31J7RYECZLQ6022FBK453GVUME81LF	NotReviewed	Reviewable	33VSRLCQV014DQ2KZT2TFM11ZA6XC7	audio, creative, speaking, voice	1	0	0	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+"	A1S0SKQ3ONPBM8/3XT3KXP24ZYMA88FTTZNN70TGQV6IW/39GHHAVOMFR6CGM0IPWARTQYBQE4JO/1/for mturk.wma	2015-09-23 03:28:07 UTC	1800	39GHHAVOMFR6CGM0IPWARTQYBQE4JO	Approved	604800	2015-09-23 03:26:02 UTC	2015-09-16 02:50:04 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:04 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3XT3KXP24ZYMA88FTTZNN70TGQV6IW	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
 <QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
   <Overview>
     <Title>Describe Your Surroundings</Title>
     <Text>
-      For five minutes, please describe the room you are in right now. Record your observations as an audio file and upload it using the field below.
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
     </Text>
 
   </Overview>
@@ -31,21 +31,21 @@ AcceptTime	Answer	Answers.1	AssignmentDurationInSeconds	AssignmentId	AssignmentS
    </AnswerSpecification>
   </Question>
 </QuestionForm>
-"	True	2.0	USD	$2.00	2015-09-15 03:05:36 UTC	Describe Your Room	A2ITTWD7JN9U87
-2015-09-15 03:05:41 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+"	True	2.0	USD	$2.00	2015-09-16 03:26:02 UTC	Describe Your Room	A2NBQXD2V7045H
+2015-09-16 03:37:55 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
 <QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
 <Answer>
 <QuestionIdentifier>1</QuestionIdentifier>
-<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
-<UploadedFileKey>A2ITTWD7JN9U87/33N1S8XHHMLQ5RJJQLVEBV6S1NFZ1V/37W3JXSD668LNMNAHQNHEYI23B2WY4/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+<UploadedFileSizeInBytes>107302</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3VMV5CHJZ8FEGFDWZI7DD5FRLLEGTP/30H4UDGLT2II2HE4J61QAJTA6GAMP6/1/record20150916092246.amr</UploadedFileKey>
 </Answer>
 </QuestionFormAnswers>
-"	A2ITTWD7JN9U87/33N1S8XHHMLQ5RJJQLVEBV6S1NFZ1V/37W3JXSD668LNMNAHQNHEYI23B2WY4/1/Wolfgun - VISION - 01 Vision.mp3	1800	37W3JXSD668LNMNAHQNHEYI23B2WY4	Submitted	604800	2015-09-22 03:06:18 UTC	2015-09-15 03:02:20 UTC	This task requires you to briefly describe where you are.	2015-09-20 03:02:20 UTC	3LNJUJ6UPARHS1QFBY7Q6V861R3REP	33N1S8XHHMLQ5RJJQLVEBV6S1NFZ1V	NotReviewed	Reviewable	33VSRLCQV014DQ2KZT2TFM11ZA6XC7	audio, creative, speaking, voice	1	0	0	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+"	A1S0SKQ3ONPBM8/3VMV5CHJZ8FEGFDWZI7DD5FRLLEGTP/30H4UDGLT2II2HE4J61QAJTA6GAMP6/1/record20150916092246.amr	2015-09-23 04:03:07 UTC	1800	30H4UDGLT2II2HE4J61QAJTA6GAMP6	Approved	604800	2015-09-23 04:00:37 UTC	2015-09-16 02:50:05 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:05 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3VMV5CHJZ8FEGFDWZI7DD5FRLLEGTP	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
 <QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
   <Overview>
     <Title>Describe Your Surroundings</Title>
     <Text>
-      For five minutes, please describe the room you are in right now. Record your observations as an audio file and upload it using the field below.
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
     </Text>
 
   </Overview>
@@ -64,21 +64,21 @@ AcceptTime	Answer	Answers.1	AssignmentDurationInSeconds	AssignmentId	AssignmentS
    </AnswerSpecification>
   </Question>
 </QuestionForm>
-"	True	2.0	USD	$2.00	2015-09-15 03:06:18 UTC	Describe Your Room	A2ITTWD7JN9U87
-2015-09-15 03:48:18 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+"	True	2.0	USD	$2.00	2015-09-16 04:00:37 UTC	Describe Your Room	AFDOCG0RZGSXU
+2015-09-16 03:15:16 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
 <QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
 <Answer>
 <QuestionIdentifier>1</QuestionIdentifier>
-<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
-<UploadedFileKey>A2ITTWD7JN9U87/3KA7IJSNW65X4LZ559Q1Q9HND00BP6/3FE2ERCCZX8J9ZM7ZH0OKDC4W41POS/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+<UploadedFileSizeInBytes>1108751</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3S1L4CQSFX53NJISIYAE0FPNWHSAFY/3KRVW3HTZNLFF9UWBN5K5OYLT0ESMP/1/room.3gpp</UploadedFileKey>
 </Answer>
 </QuestionFormAnswers>
-"	A2ITTWD7JN9U87/3KA7IJSNW65X4LZ559Q1Q9HND00BP6/3FE2ERCCZX8J9ZM7ZH0OKDC4W41POS/1/Wolfgun - VISION - 01 Vision.mp3	1800	3FE2ERCCZX8J9ZM7ZH0OKDC4W41POS	Submitted	604800	2015-09-22 03:48:46 UTC	2015-09-15 03:34:47 UTC	This task requires you to briefly describe where you are.	2015-09-20 03:34:47 UTC	3LNJUJ6UPARHS1QFBY7Q6V861R3REP	3KA7IJSNW65X4LZ559Q1Q9HND00BP6	NotReviewed	Reviewable	33VSRLCQV014DQ2KZT2TFM11ZA6XC7	audio, creative, speaking, voice	1	0	0	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+"	A1S0SKQ3ONPBM8/3S1L4CQSFX53NJISIYAE0FPNWHSAFY/3KRVW3HTZNLFF9UWBN5K5OYLT0ESMP/1/room.3gpp	2015-09-23 03:28:07 UTC	1800	3KRVW3HTZNLFF9UWBN5K5OYLT0ESMP	Approved	604800	2015-09-23 03:26:40 UTC	2015-09-16 02:50:03 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:03 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3S1L4CQSFX53NJISIYAE0FPNWHSAFY	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
 <QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
   <Overview>
     <Title>Describe Your Surroundings</Title>
     <Text>
-      For five minutes, please describe the room you are in right now. Record your observations as an audio file and upload it using the field below.
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
     </Text>
 
   </Overview>
@@ -97,21 +97,21 @@ AcceptTime	Answer	Answers.1	AssignmentDurationInSeconds	AssignmentId	AssignmentS
    </AnswerSpecification>
   </Question>
 </QuestionForm>
-"	True	2.0	USD	$2.00	2015-09-15 03:48:46 UTC	Describe Your Room	A2ITTWD7JN9U87
-2015-09-15 03:48:50 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+"	True	2.0	USD	$2.00	2015-09-16 03:26:40 UTC	Describe Your Room	A2XJH3WC02RMXQ
+2015-09-16 02:54:34 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
 <QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
 <Answer>
 <QuestionIdentifier>1</QuestionIdentifier>
-<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
-<UploadedFileKey>A2ITTWD7JN9U87/3WA2XVDZEMHN1ITK04TILHWRLSN6EV/3C44YUNSI1PS52VI98M89J05SQUDPJ/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+<UploadedFileSizeInBytes>102022</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3X2LT8FDHWIRFHB8BP008C5S1WJ8WR/3A9AA95ATWMKUATYR7K4THIOKLFP5E/1/recording20150916083001.amr</UploadedFileKey>
 </Answer>
 </QuestionFormAnswers>
-"	A2ITTWD7JN9U87/3WA2XVDZEMHN1ITK04TILHWRLSN6EV/3C44YUNSI1PS52VI98M89J05SQUDPJ/1/Wolfgun - VISION - 01 Vision.mp3	1800	3C44YUNSI1PS52VI98M89J05SQUDPJ	Submitted	604800	2015-09-22 03:49:17 UTC	2015-09-15 03:34:45 UTC	This task requires you to briefly describe where you are.	2015-09-20 03:34:45 UTC	3LNJUJ6UPARHS1QFBY7Q6V861R3REP	3WA2XVDZEMHN1ITK04TILHWRLSN6EV	NotReviewed	Reviewable	33VSRLCQV014DQ2KZT2TFM11ZA6XC7	audio, creative, speaking, voice	1	0	0	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+"	A1S0SKQ3ONPBM8/3X2LT8FDHWIRFHB8BP008C5S1WJ8WR/3A9AA95ATWMKUATYR7K4THIOKLFP5E/1/recording20150916083001.amr	2015-09-23 03:13:07 UTC	1800	3A9AA95ATWMKUATYR7K4THIOKLFP5E	Approved	604800	2015-09-23 03:10:24 UTC	2015-09-16 02:50:03 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:03 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3X2LT8FDHWIRFHB8BP008C5S1WJ8WR	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
 <QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
   <Overview>
     <Title>Describe Your Surroundings</Title>
     <Text>
-      For five minutes, please describe the room you are in right now. Record your observations as an audio file and upload it using the field below.
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
     </Text>
 
   </Overview>
@@ -130,4 +130,202 @@ AcceptTime	Answer	Answers.1	AssignmentDurationInSeconds	AssignmentId	AssignmentS
    </AnswerSpecification>
   </Question>
 </QuestionForm>
-"	True	2.0	USD	$2.00	2015-09-15 03:49:17 UTC	Describe Your Room	A2ITTWD7JN9U87
+"	True	2.0	USD	$2.00	2015-09-16 03:10:24 UTC	Describe Your Room	A29ZTF7JUO8F39
+2015-09-16 03:03:26 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>15082246</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3VMHWJRYHVGFJWQLT82SKN0LX21FX7/3NPI0JQDAO5MFC4OS322WXO20O1TP9/1/Description-01.wav</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/3VMHWJRYHVGFJWQLT82SKN0LX21FX7/3NPI0JQDAO5MFC4OS322WXO20O1TP9/1/Description-01.wav	2015-09-23 03:23:07 UTC	1800	3NPI0JQDAO5MFC4OS322WXO20O1TP9	Approved	604800	2015-09-23 03:22:17 UTC	2015-09-16 02:50:07 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:07 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3VMHWJRYHVGFJWQLT82SKN0LX21FX7	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	2.0	USD	$2.00	2015-09-16 03:22:17 UTC	Describe Your Room	A2P2JNU11M2OKZ
+2015-09-16 02:58:10 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>11002924</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3OKP4QVBP2X91JENTIGWI0PZXWSAGX/3JPSL1DZ5SZHXVT26OYTX3TFCKFNAM/1/a.wav</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/3OKP4QVBP2X91JENTIGWI0PZXWSAGX/3JPSL1DZ5SZHXVT26OYTX3TFCKFNAM/1/a.wav	2015-09-23 03:18:07 UTC	1800	3JPSL1DZ5SZHXVT26OYTX3TFCKFNAM	Approved	604800	2015-09-23 03:13:56 UTC	2015-09-16 02:50:04 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:04 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3OKP4QVBP2X91JENTIGWI0PZXWSAGX	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	2.0	USD	$2.00	2015-09-16 03:13:56 UTC	Describe Your Room	A3L0I55SEJU1HJ
+2015-09-16 03:36:59 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>763789</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3QX22DUVOOHTLHD7FG5NRSN9ES5VMR/33UKMF9319KK74XV9KBM17PZPRQTTI/1/aud.wma</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/3QX22DUVOOHTLHD7FG5NRSN9ES5VMR/33UKMF9319KK74XV9KBM17PZPRQTTI/1/aud.wma	2015-09-23 03:53:07 UTC	1800	33UKMF9319KK74XV9KBM17PZPRQTTI	Approved	604800	2015-09-23 03:48:11 UTC	2015-09-16 02:50:06 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:06 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3QX22DUVOOHTLHD7FG5NRSN9ES5VMR	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	2.0	USD	$2.00	2015-09-16 03:48:11 UTC	Describe Your Room	A3FRJKOYCI9Q53
+2015-09-16 03:04:30 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>1315829</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3WGCNLZJKF8AVBRWV9MV1ETZGA6D12/37UEWGM5HT86I58U3CMHVM5M9NZ1R1/1/my bedroom.mp3</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/3WGCNLZJKF8AVBRWV9MV1ETZGA6D12/37UEWGM5HT86I58U3CMHVM5M9NZ1R1/1/my bedroom.mp3	2015-09-23 03:18:07 UTC	1800	37UEWGM5HT86I58U3CMHVM5M9NZ1R1	Approved	604800	2015-09-23 03:17:40 UTC	2015-09-16 02:50:02 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:02 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3WGCNLZJKF8AVBRWV9MV1ETZGA6D12	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	2.0	USD	$2.00	2015-09-16 03:17:40 UTC	Describe Your Room	A364RJUWQ77TDQ
+2015-09-16 02:59:54 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>400099</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3TKXBROM5TAYY3NMDCTCWB5Y2WEIJD/32SVAV9L3F9ATR0SO5EEOPV973P3AN/1/room.wma</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/3TKXBROM5TAYY3NMDCTCWB5Y2WEIJD/32SVAV9L3F9ATR0SO5EEOPV973P3AN/1/room.wma	2015-09-23 03:08:07 UTC	1800	32SVAV9L3F9ATR0SO5EEOPV973P3AN	Approved	604800	2015-09-23 03:04:17 UTC	2015-09-16 02:50:07 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:07 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	3TKXBROM5TAYY3NMDCTCWB5Y2WEIJD	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	2.0	USD	$2.00	2015-09-16 03:04:17 UTC	Describe Your Room	A2Y2K61N2DZZQA
+2015-09-16 03:10:25 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>102022</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/37NXA7GVST69FZVMF448RF8KENFVLP/3EWIJTFFVO7H2CI7LNYHIANTP64E0Z/1/recording20150916083001.amr</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/37NXA7GVST69FZVMF448RF8KENFVLP/3EWIJTFFVO7H2CI7LNYHIANTP64E0Z/1/recording20150916083001.amr	2015-09-23 03:13:07 UTC	1800	3EWIJTFFVO7H2CI7LNYHIANTP64E0Z	Approved	604800	2015-09-23 03:10:39 UTC	2015-09-16 02:50:05 UTC	This task requires you to briefly describe where you are.	2015-09-21 02:50:05 UTC	30X7H91F8M5BSZGVOP33N68J5H1U7R	37NXA7GVST69FZVMF448RF8KENFVLP	NotReviewed	Reviewable	3WXKWJ1SHDSUTMCNQKBMSZ5NUYBTD4	audio, creative, speaking, voice	1	0	1	0	NotEqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, in whatever language you speak. Record your observations as an audio file and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	2.0	USD	$2.00	2015-09-16 03:10:39 UTC	Describe Your Room	A29ZTF7JUO8F39

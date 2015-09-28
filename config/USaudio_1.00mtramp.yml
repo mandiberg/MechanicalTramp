@@ -1,0 +1,136 @@
+# Configuration for Mechanical Tramp
+
+# 2015 Thomas R Storey
+
+# Scene name: string that will at runtime replace "scene_name" in all of the
+# filepath configurations in the rest of this file.
+
+############################################################################
+# IF YOU DON'T WANT TO DEAL WITH SCENES - Just ignore this and name things #
+# whatever you want to name them.                                          #
+# It's way easier this way. Just ignore it! Works either way.              #
+############################################################################
+
+SceneName: USaudio
+
+# Clips source list: three methods
+#  1. ClipsDirectory. Files in a directory will act as a list of filenames to
+#     upload.
+#     Example: ClipsDirectory: /clips/
+#  2. ClipsList. A path to a textfile of newline-delimited clip numbers, 4-digit
+#     zero padded.
+#     Example: ClipsList: /resubmit.txt
+#  3. ClipsRange. A tuple of numbers that specifies an inclusive range of
+#     clip numbers to upload.
+#     Example: ClipsRange:
+#                 - 35
+#                 - 46
+#
+# Only one should be uncommented at a time. If not, only the first uncommented
+# parameter will be used.
+
+#ClipsDirectory: clips/
+
+#ClipsList: resubmit.txt
+
+ClipsRange:
+  - 1
+  - 5
+
+# Success file path: this is the file that will be written (and rewritten) when
+# you upload files to Mechanical Turk with SendHits.rb. Functions as a
+# tab-separated 'master record' of all the HITIds, HITTypeIds and clip numbers
+# for this scene. It's a '.success' file because Amazon said so. Actually a tsv.
+
+SuccessFile : USaudio_1.00_.success
+
+# Reviewing file path: this the file that will be written when you run the
+# GetResults.rb. Tab-separated list of HITIds and the filename of the uploaded
+# file retrieved.
+
+ReviewingFile: USaudioreviewing_1.00_.tsv
+
+# Results Directory: the path to the directory where downloaded result files
+# will be stored. Make sure this directory exists before running GetResults.rb!
+
+ResultsDirectory: /results/
+
+# Result Log File: This is an tsv file to which we will write a detailed log
+# of all the results we get for each question. More for debugging.
+
+ResultsLogFile: USaudio_results_log_1.00_.tsv
+
+# Result file prefix: this is the prefix that will be used to name downloaded
+# result files.
+
+ResultFilePrefix: USaudioresult_1.00_
+
+# Approve file path: this is the path to the file that will be used to choose
+# which files to approve during the CompleteHITs step.
+
+ApproveFile: USaudioapprove_1.00_.tsv
+
+# Reject file path: this is the path to the file that will be used to choose
+# which files to reject during the CompleteHITs step.
+
+RejectFile: USaudioreject_1.00_.tsv
+
+# Question file path: path to the question file to use for the current scene.
+# It's a .question file because amazon says so. Actually an xml file.
+
+QuestionFile: audio.question
+
+# Question Title: Title for the HIT question for this scene
+
+QuestionTitle: 'Describe Your Room'
+
+# Question Description: Brief description for the HIT question for this scene
+
+QuestionDescription: 'This task requires you to briefly describe where you are.'
+
+# Question Keywords: keywords for this HIT (for searches) (comma-space delimited)
+
+QuestionKeywords: 'audio, creative, speaking, voice'
+
+# Web Video Directory: url to the publicly accessible directory on a webserver
+# where the videos will be linked from in the HIT questions.
+
+WebVideoDirectory: https://s3-us-west-2.amazonaws.com/mechanicaltramp
+
+# Web Video Prefix: prefix for the names of the files on the publicly accessible
+# web server where the videos will be linked from in the HIT questions
+# (leave this as empty single quotes to just use the filenumber)
+
+WebVideoPrefix: '' #0001.mp4
+
+# Clip File Extension: extension that files on the web server are saved as
+
+ClipFileExt: .mp3
+
+# Clip Price: The price level for all clips in this scene.
+
+ClipPrice: 1.00
+
+# HIT Lifetime in seconds: The number of seconds before the HIT expires
+
+#HITLifetime: 2592000 # four weeks
+HITLifetime: 345600
+
+# HIT Duration in seconds: How much time the turker has to complete the HIT
+# once they accept it
+
+#HITDuration: 172800 # two days
+HITDuration: 1800
+
+# Qualification lets you specify a qualification for a question. The default
+# specifies that turkers from the US are not allowed.
+
+Qualification:
+  type: '00000000000000000071'
+  comparator: 'EqualTo'
+  parameter: 'US'
+
+# NumFiles lets you specify how many questions are in the HIT
+# default: 1
+
+NumFiles: 1

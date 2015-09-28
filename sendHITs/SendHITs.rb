@@ -13,7 +13,7 @@ end
 
 # configuration: see mtramp.yml
 
-@config = YAML.load_file(File.join( File.expand_path(Dir.pwd), 'mtramp.yml' ))
+@config = YAML.load_file(File.join( File.expand_path(Dir.pwd), ARGV[0] ))
 
 mtf = File.join( File.expand_path(Dir.pwd), 'mturk.yml' )
 
@@ -57,7 +57,7 @@ def createNewHIT q
     # The create HIT method takes in an array of QualificationRequirements since a HIT can have multiple qualifications.
     qualReqs = [qualReq]
   end
-  
+
   numAssignments = 1
   # createHIT takes the parameters and uploads, returning a result object that
   # tells us if it was successful
@@ -131,6 +131,7 @@ def iterateHITs filenames
   # get configurations parameters
   successFile = @config["SuccessFile"].sub("scene_name", @config["SceneName"]);
   prefix = @config["WebVideoPrefix"].sub("scene_name", @config["SceneName"]);
+  clipsExt = @config["ClipFileExt"].delete "."
   puts successFile
   puts prefix
   # prepare success file
@@ -140,8 +141,9 @@ def iterateHITs filenames
   # create a HIT for each filename
   filenames.each do |filename|
     puts filename
+    puts "#{prefix}0000.#{clipsExt}"
     # if file is in fact a video file that we chopped, then generate a HIT
-    if /^#{prefix}\d{4}\.mp3$/ =~ filename
+    if /^#{prefix}\d{4}\.#{clipsExt}$/ =~ filename
       puts filename
       filenum = filename.scan(/\d{4}/).last
       puts filenum

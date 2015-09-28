@@ -1,0 +1,175 @@
+AcceptTime	Answer	Answers.1	Answers.2	AssignmentDurationInSeconds	AssignmentId	AssignmentStatus	AutoApprovalDelayInSeconds	AutoApprovalTime	CreationTime	Description	Expiration	HITGroupId	HITId	HITReviewStatus	HITStatus	HITTypeId	Keywords	MaxAssignments	NumberOfAssignmentsAvailable	NumberOfAssignmentsCompleted	NumberOfAssignmentsPending	QualificationRequirement.Comparator	QualificationRequirement.LocaleValue.Country	QualificationRequirement.QualificationTypeId	QualificationRequirement.RequiredToPreview	Question	Request.IsValid	Reward.Amount	Reward.CurrencyCode	Reward.FormattedPrice	SubmitTime	Title	WorkerId
+2015-09-27 22:44:52 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3MA5N0ATTCBBAID9KEQDG7KD0N3KW3/3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+</Answer>
+<Answer>
+<QuestionIdentifier>2</QuestionIdentifier>
+<UploadedFileSizeInBytes>595396</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3MA5N0ATTCBBAID9KEQDG7KD0N3KW3/3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9/2/pluto_wp_1.png</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	A1S0SKQ3ONPBM8/3MA5N0ATTCBBAID9KEQDG7KD0N3KW3/3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9/1/Wolfgun - VISION - 01 Vision.mp3	A1S0SKQ3ONPBM8/3MA5N0ATTCBBAID9KEQDG7KD0N3KW3/3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9/2/pluto_wp_1.png	1800	3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9	Submitted	604800	2015-10-04 22:45:29 UTC	2015-09-27 22:44:05 UTC	This task requires you to briefly describe where you are and take a photo out your window.	2015-10-01 22:44:05 UTC	333IBSSEKJ6FCW7C7FYMQKMAL5JZTL	3MA5N0ATTCBBAID9KEQDG7KD0N3KW3	NotReviewed	Reviewable	3I4ILQYF9L02PU6SL7YESMMVB816XL	audio, creative, speaking, voice, camera, image, photograph	1	0	0	0	EqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe and Photograph Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, and the view out the window.
+      Please use whatever language you are most comfortable with. Start by saying where you are (city, region, or country).
+      Please speak and if possible, turn off things in the room at that make noise, like televisions, fans or air conditioners.
+
+      Record your observations as an audio file at high quality and upload it using the field below.
+
+      Please take a photo of the view out of your window, and upload that image in the second field below. Use whatever camera you have (a cell phone is fine).
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+  <Question>
+   <QuestionIdentifier>2</QuestionIdentifier>
+   <DisplayName>Upload Photo</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your photo here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	0.5	USD	$0.50	2015-09-27 22:45:29 UTC	Describe Your Room and Take A Photo Out Your Window	A2ITTWD7JN9U87
+2015-09-27 22:44:52 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3MA5N0ATTCBBAID9KEQDG7KD0N3KW3/3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+</Answer>
+<Answer>
+<QuestionIdentifier>2</QuestionIdentifier>
+<UploadedFileSizeInBytes>595396</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/3MA5N0ATTCBBAID9KEQDG7KD0N3KW3/3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9/2/pluto_wp_1.png</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	1800	3C44YUNSI1PFYN8R6DVW8KC9ZDMDP9	Submitted	604800	2015-10-04 22:45:29 UTC	2015-09-27 22:44:05 UTC	This task requires you to briefly describe where you are and take a photo out your window.	2015-10-01 22:44:05 UTC	333IBSSEKJ6FCW7C7FYMQKMAL5JZTL	3MA5N0ATTCBBAID9KEQDG7KD0N3KW3	NotReviewed	Reviewing	3I4ILQYF9L02PU6SL7YESMMVB816XL	audio, creative, speaking, voice, camera, image, photograph	1	0	0	0	EqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe and Photograph Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, and the view out the window.
+      Please use whatever language you are most comfortable with. Start by saying where you are (city, region, or country).
+      Please speak and if possible, turn off things in the room at that make noise, like televisions, fans or air conditioners.
+
+      Record your observations as an audio file at high quality and upload it using the field below.
+
+      Please take a photo of the view out of your window, and upload that image in the second field below. Use whatever camera you have (a cell phone is fine).
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+  <Question>
+   <QuestionIdentifier>2</QuestionIdentifier>
+   <DisplayName>Upload Photo</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your photo here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	0.5	USD	$0.50	2015-09-27 22:45:29 UTC	Describe Your Room and Take A Photo Out Your Window	A2ITTWD7JN9U87
+2015-09-27 23:03:12 UTC	"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""no""?>
+<QuestionFormAnswers xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionFormAnswers.xsd"">
+<Answer>
+<QuestionIdentifier>1</QuestionIdentifier>
+<UploadedFileSizeInBytes>10550699</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/324N5FAHSXBYVTD4U4LHU51ZTE1KVT/34S9DKFK73PITDR5MU5IHGHFHMRNYV/1/Wolfgun - VISION - 01 Vision.mp3</UploadedFileKey>
+</Answer>
+<Answer>
+<QuestionIdentifier>2</QuestionIdentifier>
+<UploadedFileSizeInBytes>313648</UploadedFileSizeInBytes>
+<UploadedFileKey>A1S0SKQ3ONPBM8/324N5FAHSXBYVTD4U4LHU51ZTE1KVT/34S9DKFK73PITDR5MU5IHGHFHMRNYV/2/IMG_20150827_181918.jpg</UploadedFileKey>
+</Answer>
+</QuestionFormAnswers>
+"	1800	34S9DKFK73PITDR5MU5IHGHFHMRNYV	Submitted	604800	2015-10-04 23:04:32 UTC	2015-09-27 22:44:04 UTC	This task requires you to briefly describe where you are and take a photo out your window.	2015-10-01 22:44:04 UTC	333IBSSEKJ6FCW7C7FYMQKMAL5JZTL	324N5FAHSXBYVTD4U4LHU51ZTE1KVT	NotReviewed	Reviewable	3I4ILQYF9L02PU6SL7YESMMVB816XL	audio, creative, speaking, voice, camera, image, photograph	1	0	0	0	EqualTo	US	00000000000000000071	0	"<?xml version=""1.0"" encoding=""UTF-8""?>
+<QuestionForm xmlns=""http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd"">
+  <Overview>
+    <Title>Describe and Photograph Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, and the view out the window.
+      Please use whatever language you are most comfortable with. Start by saying where you are (city, region, or country).
+      Please speak and if possible, turn off things in the room at that make noise, like televisions, fans or air conditioners.
+
+      Record your observations as an audio file at high quality and upload it using the field below.
+
+      Please take a photo of the view out of your window, and upload that image in the second field below. Use whatever camera you have (a cell phone is fine).
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+  <Question>
+   <QuestionIdentifier>2</QuestionIdentifier>
+   <DisplayName>Upload Photo</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your photo here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
+"	True	0.5	USD	$0.50	2015-09-27 23:04:32 UTC	Describe Your Room and Take A Photo Out Your Window	A2ITTWD7JN9U87	A1S0SKQ3ONPBM8/324N5FAHSXBYVTD4U4LHU51ZTE1KVT/34S9DKFK73PITDR5MU5IHGHFHMRNYV/1/Wolfgun - VISION - 01 Vision.mp3	A1S0SKQ3ONPBM8/324N5FAHSXBYVTD4U4LHU51ZTE1KVT/34S9DKFK73PITDR5MU5IHGHFHMRNYV/2/IMG_20150827_181918.jpg

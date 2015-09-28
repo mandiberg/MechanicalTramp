@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Describe Your Surroundings</Title>
+    <Text>
+      For one minute, please describe the room you are in right now, and the view out the window.
+      Please use whatever language you are most comfortable with. Start by saying where you are (city, region, or country).
+      Please speak and if possible, turn off things in the room at that make noise, like televisions, fans or air conditioners.
+
+      Record your observations as an audio file at high quality and upload it using the field below.
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Audio</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your audio file here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>

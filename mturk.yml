@@ -5,5 +5,5 @@ AWSAccessKeyId:
 AWSAccessKey:
 
 # Host to talk to ( Prod or Sandbox )
-Host: Sandbox
-# Host: Prod
+# Host: Sandbox
+Host: Prod

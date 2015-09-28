@@ -20,7 +20,7 @@ begin
 rescue LoadError
 end
 
-@config = YAML.load_file(File.join( File.expand_path(Dir.pwd), 'mtramp.yml' ))
+@config = YAML.load_file(File.join( File.expand_path(Dir.pwd), ARGV[0] ))
 
 # videos are downloaded to /results subdirectory
 mtf = File.join( File.expand_path(Dir.pwd), 'mturk.yml' )

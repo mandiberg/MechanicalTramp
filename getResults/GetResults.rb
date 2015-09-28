@@ -31,7 +31,7 @@ end
 
 # configuration: see mtramp.yml
 
-@config = YAML.load_file(File.join( File.expand_path(Dir.pwd), 'mtramp.yml' ))
+@config = YAML.load_file(File.join( File.expand_path(Dir.pwd), ARGV[0] ))
 mtf = File.join( File.expand_path(Dir.pwd), 'mturk.yml' )
 @mturk = Amazon::WebServices::MechanicalTurkRequester.new :Config => mtf
 
@@ -81,51 +81,54 @@ def getResults( successFile, outputFile, reviewingFile )
   results.each { |assignment|
     aid = assignment[:AssignmentId]
     doc = REXML::Document.new(assignment[:Answer])
-    aext = ''
-    doc.elements.each('QuestionFormAnswers/Answer/UploadedFileKey') do |ele|
-      aext = ele.text[ele.text.rindex(".")..ele.text.size-1]
+    aexts = []
+    doc.elements.each('QuestionFormAnswers/Answer') do |ans|
+      ans.elements.each('UploadedFileKey') do |ele|
+        aexts.push(ele.text[ele.text.rindex(".")..ele.text.size-1])
+      end
     end
-    puts aext
+    puts aexts
     dir = @config["ResultsDirectory"]
-    fn = @config["ResultFilePrefix"].sub("scene_name", @config["SceneName"])
-    filenum = videoMap[assignment[:HITId]]
-    fn = fn + filenum + aext
-    downloaded = false
-    path = dir+fn
+
     # check if we are already reviewing this one
     if reviewing.include? assignment[:HITId]
       puts "Skipping HIT #{assignment[:HITId]} because we already downloaded it"
       next
     end
-    url = ''
-    begin
-      url = @mturk.getFileUploadURL(:AssignmentId => aid, :QuestionIdentifier => 1)
-    rescue Amazon::WebServices::Util::ValidationException
-      puts "No valid upload url for HIT #{assignment[:HITId]}. "
+    #download each uploaded file
+    for i in 1..@config["NumFiles"]
+      url = ''
+      begin
+        url = @mturk.getFileUploadURL(:AssignmentId => aid, :QuestionIdentifier => i)
+      rescue Amazon::WebServices::Util::ValidationException
+        puts "No valid upload url for HIT #{assignment[:HITId]}. "
+      end
+      # If the link exists, curl it to a file
+      if(url.size > 0)
+        fn = @config["ResultFilePrefix"].sub("scene_name", @config["SceneName"]) + "_#{i}_"
+        filenum = videoMap[assignment[:HITId]]
+        fn = fn + filenum + aexts[i-1]
+        downloaded = 0
+        path = dir+fn
+        downloaded += 1
+        puts "Curling file from: " + url[:FileUploadURL]
+        puts "Writing file to: " + dir + fn
+        curl = Curl::Easy.new(url[:FileUploadURL])
+        curl.on_body {|d|
+          File.open(File.expand_path(Dir.pwd) + path, "a") {|f| f.write d }
+        }
+        curl.perform
+        assignment[:Answers] = @mturk.simplifyAnswer( assignment[:Answer] )
+      end
     end
-    # If the link exists, curl it to a file
-    if(url.size > 0)
-      downloaded = true
-      puts "Curling file from: " + url[:FileUploadURL]
-      puts "Writing file to: " + dir + fn
-      curl = Curl::Easy.new(url[:FileUploadURL])
-      curl.on_body {|d|
-        File.open(File.expand_path(Dir.pwd) + path, "a") {|f| f.write d }
-      }
-      curl.perform
-      assignment[:Answers] = @mturk.simplifyAnswer( assignment[:Answer] )
-    end
+
     # set HIT to "reviewing"
     puts "Setting HIT #{assignment[:HITId]} to 'Reviewing' status"
     @mturk.setHITAsReviewing(:HITId => assignment[:HITId])
     puts "Writing HIT #{assignment[:HITId]} to .reviewing file"
     # record the result in the reviewing file
     f = File.open(reviewingFile, "a");
-    if downloaded
-      f.write("#{assignment[:HITId]}\t#{assignment[:HITTypeId]}\t#{fn}\t1\n")
-    else
-      f.write("#{assignment[:HITId]}\t#{assignment[:HITTypeId]}\t#{fn}\t0\n")
-    end
+    f.write("#{assignment[:HITId]}\t#{assignment[:HITTypeId]}\t#{fn}\t#{downloaded}\n")
     f.close
   }
 

@@ -34,8 +34,8 @@ SceneName: mechanicaltramp
 #ClipsList: resubmit.txt
 
 ClipsRange:
-  - 1
-  - 10
+  - 229
+  - 233
 
 # Success file path: this is the file that will be written (and rewritten) when
 # you upload files to Mechanical Turk with SendHits.rb. Functions as a
@@ -48,7 +48,7 @@ SuccessFile : mechanicaltramp.success
 # GetResults.rb. Tab-separated list of HITIds and the filename of the uploaded
 # file retrieved.
 
-ReviewingFile: reviewing.tsv
+ReviewingFile: mechanicaltrampreviewing.tsv
 
 # Results Directory: the path to the directory where downloaded result files
 # will be stored. Make sure this directory exists before running GetResults.rb!
@@ -58,39 +58,39 @@ ResultsDirectory: /results/
 # Result Log File: This is an tsv file to which we will write a detailed log
 # of all the results we get for each question. More for debugging.
 
-ResultsLogFile: results_log.tsv
+ResultsLogFile: mechanicaltramp_results_log.tsv
 
 # Result file prefix: this is the prefix that will be used to name downloaded
 # result files.
 
-ResultFilePrefix: result
+ResultFilePrefix: mechanicaltramp_result
 
 # Approve file path: this is the path to the file that will be used to choose
 # which files to approve during the CompleteHITs step.
 
-ApproveFile: approve.tsv
+ApproveFile: mechanicaltrampapprove.tsv
 
 # Reject file path: this is the path to the file that will be used to choose
 # which files to reject during the CompleteHITs step.
 
-RejectFile: reject.tsv
+RejectFile: mechanicaltrampreject.tsv
 
 # Question file path: path to the question file to use for the current scene.
 # It's a .question file because amazon says so. Actually an xml file.
 
-QuestionFile: regiontest.question
+QuestionFile: mechanicaltramp.question
 
 # Question Title: Title for the HIT question for this scene
 
-QuestionTitle: 'Describe Your Room'
+QuestionTitle: 'Charlie Chaplin Movie'
 
 # Question Description: Brief description for the HIT question for this scene
 
-QuestionDescription: 'This task requires you to briefly describe where you are.'
+QuestionDescription: 'This task requires you to make a short video.'
 
 # Question Keywords: keywords for this HIT (for searches) (comma-space delimited)
 
-QuestionKeywords: 'audio, creative, speaking, voice'
+QuestionKeywords: 'video, creative, acting, movie'
 
 # Web Video Directory: url to the publicly accessible directory on a webserver
 # where the videos will be linked from in the HIT questions.
@@ -105,11 +105,11 @@ WebVideoPrefix: '' #0001.mp4
 
 # Clip File Extension: extension that files on the web server are saved as
 
-ClipFileExt: .mp3
+ClipFileExt: .mp4
 
 # Clip Price: The price level for all clips in this scene.
 
-ClipPrice: 2.00
+ClipPrice: 20.00
 
 # HIT Lifetime in seconds: The number of seconds before the HIT expires
 
@@ -120,7 +120,7 @@ HITLifetime: 432000
 # once they accept it
 
 #HITDuration: 172800 # two days
-HITDuration: 1800
+HITDuration: 172800
 
 # Qualification lets you specify a qualification for a question. The default
 # specifies that turkers from the US are not allowed.
@@ -129,3 +129,5 @@ Qualification:
   type: '00000000000000000071'
   comparator: 'NotEqualTo'
   parameter: 'US'
+
+NumFiles: 1

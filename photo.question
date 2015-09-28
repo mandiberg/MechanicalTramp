@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Overview>
+    <Title>Window View</Title>
+    <Text>
+      Please take a photo of the view out of your window, and upload that image in the field below. Use whatever camera you have (a cell phone is fine).
+    </Text>
+
+  </Overview>
+  <Question>
+   <QuestionIdentifier>1</QuestionIdentifier>
+   <DisplayName>Upload Photo</DisplayName>
+   <IsRequired>true</IsRequired>
+   <QuestionContent>
+     <Text>Please upload your photo here.</Text>
+   </QuestionContent>
+   <AnswerSpecification>
+     <FileUploadAnswer>
+      <MaxFileSizeInBytes>300000000</MaxFileSizeInBytes>
+      <MinFileSizeInBytes>1000</MinFileSizeInBytes>
+    </FileUploadAnswer>
+   </AnswerSpecification>
+  </Question>
+</QuestionForm>
